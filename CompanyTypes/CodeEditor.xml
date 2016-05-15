@@ -1,9 +1,9 @@
 <CompanyType>
-  <Specialization>Code Editor</Specialization>
+  <Specialization>Editeur de code</Specialization>
   <PerYear>0.2</PerYear>
   <Min>2</Min>
   <Max>4</Max>
   <Types>
-    <Type Software="Code Editor">1</Type>
+    <Type Software="Editeur de code">1</Type>
   </Types>
 </CompanyType>
