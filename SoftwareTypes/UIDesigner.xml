@@ -1,0 +1,177 @@
+<SoftwareType>
+  <Name>UI Designer</Name>
+  <Category>Developement Software</Category>
+  <Description>You have to have some kind of plan before rushing into a Operating System or any kind of software for that matter!</Description>
+  <Unlock>1988</Unlock>
+  <Random>0.6</Random>
+  <Popularity>0.5</Popularity>
+  <Retention>0.6</Retention>
+  <Iterative>0.4</Iterative>
+  <OSSpecific>TRUE</OSSpecific>
+  <OneClient>FALSE</OneClient>
+  <InHouse>TRUE</InHouse>
+  <NameGenerator>NameGenUIDesigner</NameGenerator>
+  <OSLimit>Computer</OSLimit>
+  <Features>
+    <Feature Vital="TRUE" Forced="TRUE">
+      <Name>Plain Code Editor</Name>
+      <Description>A spoon full HTML helps design your app!</Description>
+      <Dependancy Software="UI Designer">System</Dependancy>
+      <DevTime>0.1</DevTime>
+      <Innovation>10</Innovation>
+      <Stability>80</Stability>
+      <Usability>10</Usability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+    <Feature From="Plain Code Editor">
+      <Name>Advanced Code Editor</Name>
+      <Description>Spellcheck, Autocorrection and a decent compiler, you may as well just call this an IDE!</Description>
+      <Dependancy Software="Code Editor">System</Dependancy>
+      <Unlock>1989</Unlock>
+      <DevTime>0.3</DevTime>
+      <Innovation>50</Innovation>
+      <Stability>30</Stability>
+      <Usability>20</Usability>
+      <CodeArt>0.1</CodeArt>
+    </Feature>
+    <Feature>
+      <Name>WYSIWYG</Name>
+      <Description>What you see is what you get</Description>
+      <Dependancy Software="2D Editor">2D</Dependancy>
+      <Unlock>1990</Unlock>
+      <DevTime>0.4</DevTime>
+      <Innovation>20</Innovation>
+      <Stability>50</Stability>
+      <Usability>30</Usability>
+      <CodeArt>0.3</CodeArt>
+    </Feature>
+    <Feature From="WYSIWYG">
+      <Name>Fluid UI</Name>
+      <Description>This UI is so easy to use a baby can use it...</Description>
+      <Dependancy Software="2D Editor">2D</Dependancy>
+      <Unlock>1998</Unlock>
+      <DevTime>0.4</DevTime>
+      <Innovation>35</Innovation>
+      <Stability>35</Stability>
+      <Usability>30</Usability>
+      <CodeArt>0.35</CodeArt>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>Simple Exporting</Name>
+      <Description>Save it as another file format for external use.</Description>
+      <DevTime>0.15</DevTime>
+      <Innovation>20</Innovation>
+      <Stability>50</Stability>
+      <Usability>30</Usability>
+      <CodeArt>0.8</CodeArt>
+    </Feature>
+    <Feature>
+      <Name>CSS Classing</Name>
+      <Description>Make it easier to navigate your design with CSS</Description>
+      <Unlock>1992</Unlock>
+      <DevTime>0.35</DevTime>
+      <Innovation>40</Innovation>
+      <Stability>25</Stability>
+      <Usability>35</Usability>
+      <CodeArt>0.5</CodeArt>
+    </Feature>
+    <Feature From="CSS Classing">
+      <Name>SCSS Classing</Name>
+      <Description>Way more powerful than CSS!</Description>
+      <Dependancy Software="2D Editor">2D</Dependancy>
+      <Unlock>1999</Unlock>
+      <DevTime>0.4</DevTime>
+      <Innovation>45</Innovation>
+      <Stability>20</Stability>
+      <Usability>35</Usability>
+      <CodeArt>0.55</CodeArt>
+    </Feature>
+    <Feature>
+      <Name>Text</Name>
+      <Description>Self-Explanitory</Description>
+      <Dependancy Software="UI Designer">2D</Dependancy>
+      <DevTime>0.05</DevTime>
+      <Innovation>5</Innovation>
+      <Stability>85</Stability>
+      <Usability>10</Usability>
+      <CodeArt>0.7</CodeArt>
+    </Feature>
+    <Feature>
+      <Name>1 Milion Colors</Name>
+      <Description>The Big 1M will make your editor look more colorful than ever!</Description>
+      <Dependancy Software="2D Editor">2D</Dependancy>
+      <Unlock>1995</Unlock>
+      <DevTime>0.9</DevTime>
+      <Innovation>40</Innovation>
+      <Stability>30</Stability>
+      <Usability>30</Usability>
+      <CodeArt>0.1</CodeArt>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>Simple Shapes</Name>
+      <Description>Squares, Circles, Triangles all that jazz!</Description>
+      <Dependancy Software="2D Editor">2D</Dependancy>
+      <Unlock>1990</Unlock>
+      <DevTime>0.45</DevTime>
+      <Innovation>20</Innovation>
+      <Stability>40</Stability>
+      <Usability>40</Usability>
+      <CodeArt>0.1</CodeArt>
+    </Feature>
+    <Feature From="Simple Shapes">
+      <Name>3D Shapes</Name>
+      <Description>Harness The power of your GPU For 3D Shapes</Description>
+      <Dependancy Software="3D Editor">3D</Dependancy>
+      <Unlock>1995</Unlock>
+      <DevTime>0.55</DevTime>
+      <Innovation>55</Innovation>
+      <Stability>25</Stability>
+      <Usability>20</Usability>
+      <CodeArt>0.2</CodeArt>
+    </Feature>
+    <Feature From="1 Milion Colors">
+      <Name>16.8 million colors</Name>
+      <Description>The Whole Spectrum! (Sorta)</Description>
+      <Dependancy Software="2D Editor">2D</Dependancy>
+      <Unlock>2007</Unlock>
+      <DevTime>1</DevTime>
+      <Innovation>45</Innovation>
+      <Stability>30</Stability>
+      <Usability>25</Usability>
+      <CodeArt>0</CodeArt>
+    </Feature>
+    <Feature>
+      <Name>File Compression</Name>
+      <Description>Don't let a jpeg or a psd take up THAT much space on your hard drive.</Description>
+      <Unlock>1989</Unlock>
+      <DevTime>0.6</DevTime>
+      <Innovation>50</Innovation>
+      <Stability>20</Stability>
+      <Usability>30</Usability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+    <Feature>
+      <Name>Preset libraries</Name>
+      <Description>Downloadable content FTW</Description>
+      <Dependancy Software="Website">Network</Dependancy>
+      <Unlock>1996</Unlock>
+      <DevTime>0.45</DevTime>
+      <Innovation>50</Innovation>
+      <Stability>15</Stability>
+      <Usability>35</Usability>
+      <CodeArt>0.7</CodeArt>
+    </Feature>
+    <Feature From="Preset libraries">
+      <Name>Customisable Libraries</Name>
+      <Description>Allow your devs to change their libraries to their heart's content!</Description>
+      <Dependancy Software="Website">Network</Dependancy>
+      <Dependancy Software="Code Editor">System</Dependancy>
+      <Unlock>1997</Unlock>
+      <DevTime>0.65</DevTime>
+      <Innovation>60</Innovation>
+      <Stability>10</Stability>
+      <Usability>30</Usability>
+      <CodeArt>0.65</CodeArt>
+    </Feature>
+  </Features>
+</SoftwareType>

@@ -1,0 +1,180 @@
+﻿<SoftwareType>
+  <Name>Code Editor</Name>
+  <Category>Developement Software</Category>
+  <Unlock>1987</Unlock>
+  <Description>Allow others to develop cool stuff to with code!</Description>
+  <Random>0.5</Random>
+  <Popularity>0.5</Popularity>
+  <Retention>0.9</Retention>
+  <Iterative>0.4</Iterative>
+  <OSSpecific>TRUE</OSSpecific>
+  <OneClient>FALSE</OneClient>
+  <InHouse>TRUE</InHouse>
+  <OSLimit>Computer</OSLimit>
+  <NameGenerator>NameGenCodeEditor</NameGenerator>
+  <Features>
+
+    <Feature Forced="TRUE" Vital="TRUE">
+      <Name>Console Based Compiler</Name>
+      <Description>Harness the power of cmd prompt to display your program</Description>
+      <Category>System</Category>
+      <DevTime>0.15</DevTime>
+      <Innovation>0</Innovation>
+      <Usability>4</Usability>
+      <Stability>7</Stability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>Save Function</Name>
+      <Description>Self-Explanitory...</Description>
+      <DevTime>0.1</DevTime>
+      <Innovation>1</Innovation>
+      <Stability>9</Stability>
+      <Usability>3</Usability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+    <Feature Forced="FALSE">
+      <Name>Open Source</Name>
+      <Description>Allow anyone to come along and mod the editor as much as they please</Description>
+      <Dependancy Software="Code Editor">Network</Dependancy>
+      <Category>Network</Category>
+      <Unlock>1991</Unlock>
+      <DevTime>0.55</DevTime>
+      <Innovation>4</Innovation>
+      <Usability>6</Usability>
+      <Stability>3</Stability>
+      <CodeArt>0.7</CodeArt>
+    </Feature>
+    <Feature Forced="FALSE">
+      <Name>HTML Support</Name>
+      <Description>Design and develop webpages with ease</Description>
+      <Dependancy Software="Code Editor">System</Dependancy>
+      <Unlock>1992</Unlock>
+      <DevTime>0.75</DevTime>
+      <Innovation>3</Innovation>
+      <Stability>7</Stability>
+      <Usability>4</Usability>
+      <CodeArt>0.6</CodeArt>
+    </Feature>
+    <Feature From="HTML Support">
+      <Name>CSS</Name>
+      <Description>Add some some extra life and color to your webpage</Description>
+      <Dependancy Software="Code Editor">2D</Dependancy>
+      <Unlock>1994</Unlock>
+      <DevTime>0.25</DevTime>
+      <Innovation>5</Innovation>
+      <Stability>7</Stability>
+      <Usability>3</Usability>
+      <CodeArt>0.3</CodeArt>
+    </Feature>
+    <Feature>
+      <Name>JavaScript</Name>
+      <Description>Like HTML but with more dots and dashes and semicolons, apparently that makes it faster...</Description>
+      <Dependancy Software="Code Editor">HTML Support</Dependancy>
+      <Unlock>1993</Unlock>
+      <DevTime>0.5</DevTime>
+      <Innovation>4</Innovation>
+      <Stability>3</Stability>
+      <Usability>6</Usability>
+      <CodeArt>0.9</CodeArt>
+    </Feature>
+    <Feature From="JavaScript">
+      <Name>JQuery</Name>
+      <Description>JQurey allows you to edit already existing tags and create new tags with new functions</Description>
+      <Unlock>1997</Unlock>
+      <DevTime>0.6</DevTime>
+      <Innovation>6</Innovation>
+      <Stability>2</Stability>
+      <Usability>5</Usability>
+      <CodeArt>0.8</CodeArt>
+    </Feature>
+    <Feature From="CSS">
+      <Name>SCSS</Name>
+      <Description>Now you can seperate your styles into classes within the stylesheet!</Description>
+      <Dependancy Software="Code Editor">2D</Dependancy>
+      <Unlock>2005</Unlock>
+      <DevTime>0.3</DevTime>
+      <Innovation>5</Innovation>
+      <Stability>4</Stability>
+      <Usability>4</Usability>
+      <CodeArt>0.4</CodeArt>
+    </Feature>
+    <Feature From="JQuery">
+      <Name>PHP</Name>
+      <Description>Is at the base of most social media sites but is terribly unstable and requires a pro to code properly</Description>
+      <Dependancy Software="Code Editor">System</Dependancy>
+      <Unlock>2000</Unlock>
+      <DevTime>0.55</DevTime>
+      <Innovation>6</Innovation>
+      <Stability>2</Stability>
+      <Usability>5</Usability>
+      <CodeArt>0.9</CodeArt>
+      <Server>0.001</Server>
+    </Feature>
+    <Feature>
+      <Name>Advanced Compiler</Name>
+      <Description>Now you can use a window instead of a compiler to review your applications and it's way fater this time!</Description>
+      <Dependancy Software="Code Editor">System</Dependancy>
+      <Unlock>1988</Unlock>
+      <DevTime>0.4</DevTime>
+      <Innovation>5</Innovation>
+      <Stability>5</Stability>
+      <Usability>3</Usability>
+      <CodeArt>0.8</CodeArt>
+    </Feature>
+    <Feature Vital="TRUE" From="Console Based Compiler">
+      <Name>C/C++ Support</Name>
+      <Description>C is a language as old as time it would be unwise not to include it...</Description>
+      <Unlock>1970</Unlock>
+      <DevTime>0.2</DevTime>
+      <Innovation>2</Innovation>
+      <Stability>7</Stability>
+      <Usability>4</Usability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+    <Feature>
+      <Name>GUI</Name>
+      <Description>Make it easier for newbies to enter the game with easy acsess icons instead of cmd prompt</Description>
+      <Dependancy Software="Code Editor">2D</Dependancy>
+      <Unlock>1990</Unlock>
+      <DevTime>0.35</DevTime>
+      <Innovation>4</Innovation>
+      <Stability>4</Stability>
+      <Usability>5</Usability>
+      <CodeArt>0.3</CodeArt>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>Debugger</Name>
+      <Description>Ensure that your code is correct without having to check it 7 times!</Description>
+      <DevTime>0.6</DevTime>
+      <Innovation>6</Innovation>
+      <Stability>3</Stability>
+      <Usability>4</Usability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+    <Feature From="Open Source">
+      <Name>User Submitted Libraries</Name>
+      <Description>Use the internet to search for an extension someone else has created but beware for bugs as they might not know what they're doing...</Description>
+      <Unlock>1994</Unlock>
+      <DevTime>0.4</DevTime>
+      <Innovation>4</Innovation>
+      <Stability>3</Stability>
+      <Usability>6</Usability>
+      <CodeArt>0.7</CodeArt>
+      <Server>0.005</Server>
+    </Feature>
+    <Feature>
+      <Name>Java Support</Name>
+      <Description>One of the most well recognised, well respected languages in the world </Description>
+      <Unlock>1996</Unlock>
+      <DevTime>0.3</DevTime>
+      <Innovation>4</Innovation>
+      <Stability>6</Stability>
+      <Usability>3</Usability>
+      <CodeArt>1</CodeArt>
+    </Feature>
+  </Features>
+</SoftwareType>
+
+
+		

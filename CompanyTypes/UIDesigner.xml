@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>UI Designer</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>1</Min>
+	<Max>4</Max>
+	<Types>
+		<Type Software="UI Designer">1</Type>
+	</Types>
+</CompanyType>
